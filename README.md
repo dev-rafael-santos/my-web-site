@@ -10,10 +10,6 @@ Welcome to the repository of my personal website! This project is a platform whe
 
 ## Project Objective
 
-<p align="left">
-  <img src="https://thumbs.dreamstime.com/b/objetivo-vermelho-69446835.jpg" alt="Objective Image" width="100" height="50">
-</p>
-
 The main objective of this site is to share my personal story, testimonies of faith, and reflections on biblical texts. Additionally, it's a platform to connect and inspire people through life experiences and spiritual messages.
 
 ## Site Structure
