@@ -26,13 +26,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
 }
 
-.border-divider {
-    width: 2px; /* Largura da borda */
-    background-color: #424242; /* Cor da borda */
-    height: auto; /* Altura automática para preencher o espaço */
-    margin: 0 20px; /* Espaço entre a borda e os contêineres de texto */
-    margin-left: 20px; /* Aumenta a margem à esquerda da borda para movê-la para a direita */
-}
+
 
 
 .texto-container:last-child {
