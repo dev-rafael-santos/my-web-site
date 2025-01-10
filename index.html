@@ -126,28 +126,38 @@
       curso dos meses seguintes da minha vida.
     </p>
   </div>
-  <div>
-    <h2 id ="cap1" class= "w3-text-light-grey" >Parte I - A Primeira Notícia</h2>
-    <p class ="w3-text-light-grey"> Após ser submetido a uma tomografia, os resultados foram avassaladores. 
-      Fui diagnosticado com pneumonia viral, com 25% dos meus pulmões comprometidos. 
-      O espectro do COVID-19 pairava sobre nós, e a suspeita imediata era de que 
-      eu poderia ser mais uma vítima dessa terrível doença que assolava o mundo. 
-      Em meio ao caos e à incerteza, eu me vi mergulhado em um 
-      turbilhão de emoções: medo, ansiedade, mas também uma determinação inabalável de lutar.
-    </p>
-  </div>
-  <div>
-    <h2 id="cap2" class="w3-text-light-grey">Parte II - Os Primeiros Cuidados</h2>
-    <p class ="w3-text-light-grey"> Ao receber o diagnóstico avassalador no hospital, retornei para casa sob o peso esmagador da 
-      incerteza. Nos dias que se seguiram, minha casa se tornou não apenas um refúgio, mas também 
-      um campo de batalha contra a doença que se infiltrara em meu corpo. Enfrentamos uma rotina de restrições e isolamento, conscientes de que cada medida de precaução 
-      era crucial para minha recuperação. Minha esposa se tornou minha guardiã incansável, lembrando-me diariamente 
-      dos cuidados que eu deveria ter. Entre as paredes do nosso lar, enfrentamos não
-      apenas os desafios físicos da doença, mas também os tormentos emocionais
-      que a acompanham. Cada batimento cardíaco era uma lembrança da 
-      fragilidade da vida, mas também uma prova indomável de nossa determinação em vencer 
-      esta batalha.</p>
-  </div>
+  <div class="flex-container" style="margin-top: 20px; display: flex; align-items: flex-start;">
+    <div style="margin-right: 20px;">
+        <h2 id="cap1" class="w3-text-light-grey">Parte I - A Primeira Notícia</h2>
+        <p class="w3-text-light-grey texto-com-margem">Após ser submetido a uma tomografia, os resultados foram avassaladores. 
+            Fui diagnosticado com pneumonia viral, com 25% dos meus pulmões comprometidos. 
+            O espectro do COVID-19 pairava sobre nós, e a suspeita imediata era de que 
+            eu poderia ser mais uma vítima dessa terrível doença que assolava o mundo. 
+            Em meio ao caos e à incerteza, eu me vi mergulhado em um 
+            turbilhão de emoções: medo, ansiedade, mas também uma determinação inabalável de lutar.
+        </p>
+        <img src="./Imagens/Imagem_pulmao_animation.gif" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)">
+    </div>
+   <div>
+        <h2 id="cap2" class="w3-text-light-grey">Parte II - Os Primeiros Cuidados</h2>
+        <p class="w3-text-light-grey texto-com-margem">Ao receber o diagnóstico avassalador no hospital, retornei para casa sob o peso esmagador da 
+            incerteza. Nos dias que se seguiram, minha casa se tornou não apenas um refúgio, mas também 
+            um campo de batalha contra a doença que se infiltrara em meu corpo. Enfrentamos uma rotina de restrições e isolamento, conscientes de que cada medida de precaução 
+            era crucial para minha recuperação. Minha esposa se tornou minha guardiã incansável, lembrando-me diariamente 
+            dos cuidados que eu deveria ter. Entre as paredes do nosso lar, enfrentamos não
+            apenas os desafios físicos da doença, mas também os tormentos emocionais
+            que a acompanham. Cada batimento cardíaco era uma lembrança da 
+            fragilidade da vida, mas também uma prova indomável de nossa determinação em vencer 
+            esta batalha.
+        </p>
+        <img src="./Imagens/imagem_casa.jpg" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)">
+    </div>
+</div>
+
+<div id="modal" class="modal" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
   <div> 
     <h2 id="cap3" class="w3-text-light-grey"> Parte III - O Primeiro Desafio</h2>
     <p class ="w3-text-light-grey">Após enfrentar bravamente os desafios em casa, a batalha contra a doença ainda estava longe de terminar. 
