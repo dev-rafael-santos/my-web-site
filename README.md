@@ -19,6 +19,21 @@ The main objective of this site is to share my personal story, testimonies of fa
 - **Holy Scriptures**: Reflections and teachings based on biblical texts.
 - **Contact**: Form for messages and contact information.
 
+## Directory and File Structure
+
+```
+my-web-site/
+│
+├──Imagens/
+│   
+├── README.md
+│   
+├── index.html
+│
+├── scripts.js
+│
+└── styles.css
+```
 ## How to Run Locally
 
 To run the site locally, follow the steps below:
