@@ -3,13 +3,19 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 
 /* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
+.w3-sidebar {width: 120px;height: max-content;background: #222;}
+
+
+.w3-bar-item i {
+    font-size: 18px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 10px; /* Adiciona um espaço entre o ícone e o texto */
+}
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {margin-left: 120px}
 
 /* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 900px) {#main {margin-left: 0}}
 
 .texto-centralizado {
     text-align: justify;
@@ -26,24 +32,31 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
 }
 
-
-
-
 .texto-container:last-child {
     margin-right: 0; /* Remove a margem do último contêiner */
 }
 
 .texto-com-margem {
-    max-width: 100%; /* Garante que o texto não ultrapasse o contêiner */
+    width: 850px; /* Defina a largura fixa desejada */
+    padding: 20px; /* Adiciona espaço interno ao redor do texto */
+    word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
+    border-right: 2px solid #ccc; /* Adiciona uma borda de 2px de espessura e cor cinza claro apenas à direita */
+    padding-right: 70px; /* Adiciona um espaço extra à direita para o texto não ficar colado na borda */
+}
+.texto-com-margem-borda {
+    width: 850px; /* Defina a largura fixa desejada */
+    margin-left: 110px; 
     padding: 20px; /* Adiciona espaço interno ao redor do texto */
     word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
     border-right: 2px solid #ccc; /* Adiciona uma borda de 2px de espessura e cor cinza claro apenas à direita */
     padding-right: 70px; /* Adiciona um espaço extra à direita para o texto não ficar colado na borda */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1500px) {
+    
     .flex-container {
         flex-direction: column; /* Muda a direção para coluna em telas menores */
+        margin-left: 0
     }
 }
 /*Imagens*/
