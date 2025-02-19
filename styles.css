@@ -52,8 +52,25 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     padding-right: 70px; /* Adiciona um espaço extra à direita para o texto não ficar colado na borda */
 }
 
-@media (max-width: 1500px) {
-    
+@media (max-width: 1800px) {
+    .texto-com-margem {
+        margin-left: 0px;
+        max-width: 100%; /* Permite que o texto ocupe até 100% da largura do contêiner pai */
+        width: auto; /* Remove a largura fixa */
+        padding: 20px; /* Adiciona espaço interno ao redor do texto */
+        word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
+        padding-right: 70px; /* Adiciona um espaço extra à direita para o texto não ficar colado na borda */
+        border-right: none;
+    }
+    .texto-com-margem-borda {
+        margin-left: 0px;
+        max-width: 100%; /* Permite que o texto ocupe até 100% da largura do contêiner pai */
+        width: auto; /* Remove a largura fixa */
+        padding: 20px; /* Adiciona espaço interno ao redor do texto */
+        word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
+        padding-right: 70px; /* Adiciona um espaço extra à direita para o texto não ficar colado na borda */
+        border-right: none;
+    }
     .flex-container {
         flex-direction: column; /* Muda a direção para coluna em telas menores */
         margin-left: 0
