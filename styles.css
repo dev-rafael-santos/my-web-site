@@ -2,6 +2,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 .img-container {
         text-align: center;
+        display: block;
 }
 .w3-row-padding img {margin-bottom: 12px}
 
