@@ -61,6 +61,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
         padding-right: 70px; /* Adiciona um espaço extra à direita para o texto não ficar colado na borda */
         border-right: none;
+        text-align: justify;
     }
     .texto-com-margem-borda {
         margin-left: 0px;
@@ -70,6 +71,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
         padding-right: 70px; /* Adiciona um espaço extra à direita para o texto não ficar colado na borda */
         border-right: none;
+        text-align: justify;
     }
     .flex-container {
         flex-direction: column; /* Muda a direção para coluna em telas menores */
@@ -123,5 +125,4 @@ img {
     font-weight: bold;
     cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
 }
-
 
