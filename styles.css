@@ -26,31 +26,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     align-items: flex-start; /* Alinha os itens no topo */
 }
 
-.texto-container {
-    flex: 1; /* Faz com que ambos os contêineres ocupem a mesma largura */
-    padding: 20px; /* Adiciona espaço interno ao redor do texto */
-    word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
-}
 
 .texto-container:last-child {
     margin-right: 0; /* Remove a margem do último contêiner */
 }
 
-.texto-com-margem {
-    width: 850px; /* Defina a largura fixa desejada */
-    padding: 20px; /* Adiciona espaço interno ao redor do texto */
-    word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
-    border-right: 2px solid #ccc; /* Adiciona uma borda de 2px de espessura e cor cinza claro apenas à direita */
-    padding-right: 70px; /* Adiciona um espaço extra à direita para o texto não ficar colado na borda */
-}
-.texto-com-margem-borda {
-    width: 850px; /* Defina a largura fixa desejada */
-    margin-left: 110px; 
-    padding: 20px; /* Adiciona espaço interno ao redor do texto */
-    word-wrap: break-word; /* Quebra palavras longas para a próxima linha */
-    border-right: 2px solid #ccc; /* Adiciona uma borda de 2px de espessura e cor cinza claro apenas à direita */
-    padding-right: 70px; /* Adiciona um espaço extra à direita para o texto não ficar colado na borda */
-}
+
+
 
 @media (max-width: 1800px) {
     .texto-com-margem {
