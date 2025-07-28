@@ -1,60 +1,79 @@
-/* Define a família de fontes para o corpo do texto e para todos os títulos */
+/* Fonte padrão para todo o site e títulos */
 body, h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif; 
+    font-family: "Montserrat", sans-serif;
 }
 
 
-/* Define a largura da barra lateral como 120px, ajusta a altura para conter todo o conteúdo, e define o fundo como cinza escuro */
-.w3-sidebar {
-    width: 120px;
-    height: max-content;
-    background: #8d8686;
-}
-
-/* Ajusta o tamanho da fonte dos ícones dentro de itens de barras de navegação e adiciona espaço à direita do ícone */
+/* Ícones no menu com fonte maior e menos espaçamento - Validado */  
 .w3-bar-item i {
-    font-size: 18px; /* Define o tamanho da fonte */
-    margin-right: 10px; /* Espaçamento entre ícone e texto */
+    font-size: 22px;
+    margin-right: 16px;
 }
 
-/* Adiciona margem à esquerda no conteúdo principal para acomodar a barra lateral */
-#main {
-    margin-left: 120px;
+/* Parágrafos responsivos para leitura (estilo celular) - Validado*/
+p {
+    font-size: 1.1rem;         /* Um pouco maior para leitura */
+    line-height: 1.5;
+    word-break: break-word;
+    margin: 0 0 1em 0;
+    padding: 0 5vw;            /* Espaço lateral como no mobile */
+    text-align: justify;
 }
 
-/* Remove a margem do conteúdo principal em telas menores ou iguais a 900px */
-@media only screen and (max-width: 900px) {
-    #main {
-        margin-left: 0;
+
+.img-pequena {
+    display: block;
+    margin: 1em auto;
+    width: 100%;       /* Tamanho fixo em telas grandes - Validado*/
+    max-width: 30%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .img-pequena {
+        width: 70%;    /* Preenche toda a tela no mobile */
+        max-width: 70%;
+        height: 70%;
     }
 }
 
-/* Centraliza o texto, justifica para esticar ao longo do contêiner */
-.texto-centralizado {
-    text-align: justify; /* Estica texto nas linhas */
-    text-align-last: center; /* Centraliza a última linha de texto */
+
+.sidebar-left,
+.sidebar-right {
+    background: #333; /* Cor das barras laterais */
+    width: 300px; /* Largura das barras laterais */
+    min-height: 100vh; /* Altura mínima para cobrir a tela */
+    color: #fff; /* Cor do texto */
+    padding: 1em; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding no cálculo do tamanho */
+}
+
+.content {
+    flex: 1; /* Faz o conteúdo principal ocupar o espaço restante */
+    padding: 2em 1em;
+    background: #000; /* Cor do fundo do conteúdo */
+    color: #fff; /* Cor do texto */
+    box-sizing: border-box; /* Inclui padding no cálculo do tamanho */
+}
+
+/* Para telas pequenas (até 600px), esconde as barras laterais */
+@media (max-width: 600px) {
+    .layout {
+        flex-direction: column;
+    }
+    .sidebar-left,
+    .sidebar-right {
+        display: none;
+    }
+    .content {
+        padding: 2em 1em;
+    }
 }
 
 
-/* Estilos responsivos para tamanhos de tela até 1800px */
-@media (max-width: 8000px) {
-
-    /* Ajusta elementos de texto para preencher o espaço disponível, adiciona espaçamento */
-    .texto-com-margem,
-    .texto-com-margem-borda {
-        margin-left: 0px;
-        max-width: 100%; /* Ocupa 100% do contêiner pai */
-        width: auto; /* Largura automática */
-        padding: 20px; /* Espaço interno */
-        word-wrap: break-word; /* Quebra palavras longas */
-        padding-right: 70px; /* Espaço extra à direita */
-        border-right: none; /* Remove borda à direita, se houver */
-        text-align: justify; /* Justifica texto */
-    }
-
-    /* Muda direção de elementos flexíveis para coluna */
-    .flex-container {
-        flex-direction: column; /* Alinha elementos verticalmente */
-        margin-left: 0; /* Remove qualquer margem à esquerda */
-    }
-}
+.area-conteudo { display: none; }
+.testemunho-section, .sagradas-escrituras-section { display: none; }
+#indice-navegacao, #indice-navegacao2 { display: none; }
+.w3-bar .w3-bar-item.active { background: #fff !important; color: #000 !important; }

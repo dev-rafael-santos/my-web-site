@@ -1,644 +1,564 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Rafael Santos</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--Fonte externa para icones e stilos -->
-    <script src="https://kit.fontawesome.com/bc2621d19e.js"
-     crossorigin="anonymous"></script>
-    <!-- Inclua a tag script js -->
-    <script src="scripts.js"></script>
-     <!-- Link para o arquivo CSS -->
-    <link rel="stylesheet" href="styles.css">
-  </head>
-<body class="w3-black" >
+<html lang="pt-br">
 
-<!-- Barra de Ícones (Barra lateral - oculta em telas pequenas) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Imagem de avatar no canto superior esquerdo -->
-  <div>
-    <img src="./Imagens/RafaelKesley.jpeg" style="width:100%">
-  </div>
-  <!-- Menu Inicio -->
-  <div>
-    <a href="#inicio" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa-solid fa-house fa-beat"></i>
-    <p>INÍCIO</p>
-  </a>
-  </div>
-  <!-- Menu Testemunho -->
-  <div>
-  <a href="#testemunho" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa-solid fa-user fa-beat"></i>
-    <p>TESTEMUNHO</p>
-  </a>
-  
-  <!-- SubMenu Testemunho 
-  
-  <div id="submenu" class="submenu">
-    <a href="#objetivo" class="w3-bar-item w3-button w3-padding-large w3-hover-black">Objetivo</a> -->
-    <!-- Outros itens do submenu -->
-  </div> 
+<head>
+  <title>Rafael Santos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/bc2621d19e.js" crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-  </div>
-  <!-- Menu Sagradas Escrituras -->
-  <div>
-  <a href="#sagradasescrituras" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa-solid fa-book fa-beat"></i>
-    <p>SAGRADAS ESCRITURAS</p>
-  </a>
-  <!-- SubMenu Sagradas Escrituras -->
-  <!--
-  <div id="submenu2" class="submenu2">
-    <a href="#objetivo2" class="w3-bar-item w3-button w3-padding-large w3-hover-black">Objetivo</a>
-    Outros itens do submenu2 -->
-  </div>
-  </div>
+<body class="w3-black">
 
-  <!-- Menu Contato a criar -->
-  
-  <a href="#contato" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa-solid fa-envelope fa-beat"></i>
-    <p>CONTATO</p>
-  </a>
-
-</nav>
-
-<!-- Barra de navegação em telas pequenas (Oculto em telas médias e grandes) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <!-- Menu para Celular Inicio -->
-    <a href="#inicio" class="w3-bar-item w3-button" style="width:25% !important">INÍCIO</a>
-    <!-- Menu para Celular Testemunho -->
-    <a href="#testemunho" class="w3-bar-item w3-button" style="width:25% !important">TESTEMUNHO</a>
-    <!-- Menu para Celular Sagradas Escrituras -->
-    <a href="#sagradasescrituras" class="w3-bar-item w3-button" style="width:25% !important">SAGRADAS ESCRITURAS</a>
-
-    <a href="#contato" class="w3-bar-item w3-button" style="width:25% !important">CONTATO</a>
-  </div>
-</div>
-
-
-<!-- Conteúdo da Página -->
-<div class="w3-padding-large" id="main">
   <!-- Cabeçalho -->
- <header class="w3-container w3-padding-32 w3-center w3-black" >
-    <h1 class="w3-jumbo" id="inicio"> Eu sou,
-      <span class="w3-hide-small"></span> Rafael Santos</h1>
-    <h3></h3>
-    <hr class="linha-personalizada" style="width: 100%;" >
-    <p class =" w3-text-light-grey">Compartilharei tanto meu testemunho quanto meu conhecimento sobre as sagradas escrituras, que aperfeçoei principalmente pela experiência real que tive com Deus.</p>
-      <hr class="linha-personalizada" style="width: 100%;" >
-</header>
+<header class="w3-container w3-padding-32 w3-center w3-black"></header>
 
-<!-- Seção Testemunho -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="testemunho"> 
-  <h1 class="w3-text-light-grey">Introdução</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-    <div style="margin-right: 20px;">
-    <h2 id = "introdução" class ="w3-text-light-grey"></h2>
-    <hr class="linha-personalizada" style="width: 100%;" >
-    <p class =" w3-text-light-grey">Em Maio de 2021, o mundo lutava contra os desafios
-      da pandemia, enfrentei uma batalha
-      pessoal contra a doença, naquele mês ao sentir
-      uma terrível dificuldade para respirar, fui levado às pressas 
-      ao hospital e as notícias que recebi não foram apenas alarmantes, mas também mudariam o 
-      curso da minha vida.
-    </p>
+<!-- Menu topo -->
+<div class="w3-top" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" id="btn-inicio" class="w3-bar-item w3-button" style="width:33.33% !important">ÍNICIO</a>
+    <a href="#" id="btn-testemunho" class="w3-bar-item w3-button" style="width:33.33% !important">TESTEMUNHO</a>
+    <a href="#" id="btn-escrituras" class="w3-bar-item w3-button" style="width:33.33% !important">RESUMO DA BÍBLIA</a>
+    <a href="#" id="btn-livros" class="w3-bar-item w3-button" style="width:33.33% !important">LIVROS DA BÍBLIA</a>
+    <a href="#" id="btn-contato" class="w3-bar-item w3-button" style="width:33.33% !important">CONTATO</a>
   </div>
 </div>
 
-<!-- Seção Primeira Noticia -->
+<!-- Barra Lateral Esquerda -->
+<div class="w3-col l2 m3 w3-black sidebar-left"><!-- Conteúdo da barra lateral esquerda --></div>
 
-<div class="w3-container w3-padding-32 w3-center w3-black" id="primeiranoticia">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 1</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-    <div style="margin-right: 20px;">
-    <h2 id="cap1" class="w3-text-light-grey">A Primeira Notícia</h2>
-    <hr class="linha-personalizada" style="width: 100%;" >
-    <p class="w3-text-light-grey">
-      Fui submetido a uma tomografia, e os resultados foram avassaladores: recebi o diagnóstico 
-      de pneumonia viral, com 25% dos meus pulmões comprometidos. A sombra da COVID-19 pairava sobre 
-      mim. A suspeita imediata era de que eu poderia ser mais uma vítima dessa terrível doença que 
-      assolava o mundo. Em meio ao caos e à incerteza, mergulhei em um turbilhão de emoções: medo e ansiedade, mas também uma determinação inabalável de lutar.</p>
-    </div>
-</div>
+<!-- Espaçamento entre barra de navegação até depois do footer -->
+<div class="w3-col l8 m6 w3-black content">
 
-<!-- Seção Os Primeiros Cuidados -->
+<!-- Inicio do Conteúdo Principal -->
+<div class="w3-padding-large">
 
-<div class="w3-container w3-padding-32 w3-center w3-black" id="primeiroscuidados">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 2</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap2" class="w3-text-light-grey">Os Primeiros Cuidados</h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class="w3-text-light-grey">Retornei para casa sob o peso esmagador da incerteza. Nos dias que se seguiram, 
-          meu lar se tornou não apenas um refúgio, mas também um campo de batalha contra a doença que invadira meu corpo. 
-          Enfrentei uma rotina de isolamento, consciente de que cada cuidado era crucial. Minha esposa, como uma guardiã incansável, 
-          me lembrava diariamente da importância de lutar. Entre aquelas paredes, encarei não só a dor física, mas também os abalos da alma.</p>
-       <!-- <img src="./Imagens/imagem_casa.jpg" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)" -->
-    </div>
-    <!--
-          <div id="modal" class="modal" onclick="closeModal()">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="modalImg">
-          </div>
-    -->
-  </div>
-
-<!-- Seção O Primeiro Desafio -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="primeirodesafio">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 3</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap3" class="w3-text-light-grey">O Primeiro Desafio</h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">A batalha contra a doença ainda estava longe de terminar, fui obrigado a 
-          retornar ao hospital para novos exames devido a falta de ar, e aqui, o destino reservou reviravoltas inesperadas,
-          enquanto a primeira médica parecia inclinada a me liberar para casa, o segundo médico, 
-          ao analisar os resultados, recomendou que eu permanecesse internado, confuso e preocupado, acatei às pressas a 
-          decisão, sem compreender completamente o que estava acontecendo.</p>
-      <!-- <img src="./Imagens/Medicos.jpg" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-  </div>
-</div>
-
-<!-- Sessão A Rede Social -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="momentosescruridao">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 4</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-          <h2 id="cap4" class="w3-text-light-grey">A Rede Social</h2>
-          <hr class="linha-personalizada" style="width: 100%;" >
-          <p class ="w3-text-light-grey">Os dias se arrastavam e eu ainda estava internado, quando decidi fazer algo inédito: 
-            compartilhar minha jornada nas redes sociais. Em um post no Facebook, alertei amigos sobre os perigos dessa doença 
-            que me colocara nessa situação tão desafiadora. Foi um ato de urgência e compaixão. Mesmo em meio à minha própria luta, 
-            senti que precisava informar, conscientizar e, de alguma forma, transformar dor em alerta. </p>
-<!-- <img src="./Imagens/Paciente.jpg" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-    </div>
-</div>
-
-<!-- Seção Momentos antes da Escuridão -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="momentosescruridao">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 5</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-          <h2 id="cap4" class="w3-text-light-grey">Momentos antes da Escuridão</h2>
-          <hr class="linha-personalizada" style="width: 100%;" >
-          <p class ="w3-text-light-grey">Recebi mensagens e áudios de amigos e familiares, com orações e palavras 
-            que me incentivavam a continuar firme. Lembro com clareza do vídeo que enviei à minha esposa, carregado de 
-            esperança e amor. Logo depois, mergulhei em um sono profundo, onde os limites entre sonho e realidade se apagaram.
-            Tudo parecia distante, irreal. Mas, mesmo ali, na escuridão da inconsciência, a luz da esperança seguia brilhando. </p>
-<!-- <img src="./Imagens/Paciente.jpg" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-    </div>
-</div>
-
-
-<!-- Seção Um Sono Profundo -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="lutavidamorte">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 6</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap5" class="w3-text-light-grey">Um Sono Profundo</h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Parecia apenas um sono profundo, mas o que me contaram depois mudou tudo. Meu estado 
-        era tão grave que precisaram me entubar. No dia 28 de maio de 2021, eu completaria 34 anos — mas esse dia passou em branco, 
-        enquanto eu flutuava entre a vida e a morte. Imagino o terror vivido por meus familiares do lado de fora, recebendo notícias que 
-        oscilavam entre esperança e medo. Então, em um dia comum, tudo mudou.
- </p>
-<!-- <img src="./Imagens/Reanimacao.jpg" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-  </div>
-</div>
-
-<!-- Seção Entre a Vida e a Morte Parte I -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="lutavidamorte">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 7</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap5" class="w3-text-light-grey">Entre a Vida e a Morte Parte I</h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">No dia 08 de junho de 2021, por volta das 8h da manhã, meu coração parou. Uma trombose 
-        causou uma parada cardiorrespiratória que me levou à beira da morte. Foram seis minutos entre a vida e o além, em um limbo 
-        de dor e escuridão. Senti algo como um tiro no coração. Por um instante, acreditei que era o fim. Mas no terceiro ciclo de reanimação, 
-        meus sinais vitais milagrosamente retornaram. A luz da vida ainda brilhava. </p>
-<!-- <img src="./Imagens/Reanimacao.jpg" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-  </div>
-</div>
-
-<!-- Seção O Despertar -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="reencontroinesperado">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 8</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap6" class="w3-text-light-grey">O Despertar</h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Despertei envolto por sensações confusas e sonolentas, sem entender ao certo o que se passava ao meu redor. Aos poucos, 
-        a névoa da inconsciência começou a se dissipar, revelando a presença tranquila de um psicólogo ao meu lado. Aquele momento, ainda turvo, foi o primeiro 
-        passo rumo à minha recuperação — a primeira faísca da consciência reacendendo dentro de mim. </p>
-    <!--<img src="./Imagens/Reencontro.jpg" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-  </div>
-</div>
-
-<!-- Seção O Encontro -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="reencontroinesperado">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 9</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap6" class="w3-text-light-grey">O Encontro</h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Minha esposa entrou na sala, vestida como uma médica, protegida pela máscara da pandemia. 
-          Meus olhos se encheram de lágrimas ao vê-la tão forte diante da minha fragilidade. Perguntei por que ela não chorava, 
-          e sua resposta foi um pedido para que eu fosse forte também. Só depois entendi: ela havia sido orientada a manter-se firme, 
-          pois minha estabilidade emocional era vital. Aquele reencontro foi puro alívio, amor e gratidão. </p>
-    <!--<img src="./Imagens/Reencontro.jpg" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-  </div>
-</div>
-
-<!-- Seção Entre a Vida e a Morte Parte II-->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="novalutavidamorte">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 10</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap7" class="w3-text-light-grey">Entre a Vida e a Morte Parte II </h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Uma bactéria hospitalar invadiu meu corpo, gerando um choque séptico que alterou drasticamente meus sinais vitais.
-        A equipe de enfermagem lutava para me manter estável. Lembro das bolsas de gelo nos punhos e pernas para conter a febre. Foram três dias de incerteza, 
-        até que minha esposa ouviu da médica: “Se ele aguentar mais dois dias, ficará bem.” Essas palavras reacenderam sua fé e mantiveram viva a esperança.
- </p>
-  </div>
-</div>
-
-<!-- Seção O Despertar da Conciência -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="despertaralma">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 11</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap8" class="w3-text-light-grey"> O Despertar da Conciência</h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Aos poucos, comecei a recobrar a consciência — como quem emerge de um sono profundo. Retornei às sessões de 
-          psicologia, cada uma sendo um passo rumo à reconexão com a realidade. Enquanto me esforçava para me reencontrar, recebi áudios de familiares 
-          e amigos. Cada mensagem era um raio de luz em meio à escuridão, lembrando-me de que não estava sozinho. As vozes e memórias ajudaram a reconstruir 
-          quem eu era. </p>
-  </div>
-</div>
-    
-<!-- Seção A Comunicação -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="comunicacao">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 12</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap9" class="w3-text-light-grey"> A Comunicação</h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Após a traqueostomia, percebi que não podia mais falar. A simples ação de me comunicar, tão natural antes, 
-          havia se tornado impossível. Passei a usar gestos e leitura labial para expressar o que sentia. Foi um choque ver minha voz silenciada, 
-          mas mesmo sem palavras, encontrei novas formas de me fazer entender. Cada olhar, cada movimento, tornou-se uma declaração silenciosa da 
-          minha vontade de vencer. </p>
-  </div>
-</div>
-
-<!-- Seção A Reconstrução da Voz -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="esperancarestaurada">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 13</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap10" class="w3-text-light-grey">A Reconstrução da Voz </h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Encontrei na fonoaudióloga uma aliada na missão de recuperar minha voz. No começo, soava rouca e metálica,
-          e até brinquei com o psicólogo imitando um robô. Aos poucos, fui reencontrando meu som. Reuni a equipe de enfermagem e dei minhas primeiras “palestras” 
-          no hospital. Foi um momento de alegria e gratidão por poder falar novamente, compartilhando minha vitória com todos ao meu redor. </p>
-  </div>
-</div>
-
-<!-- Seção O Cuidado  -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="esperancarestaurada">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 14</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap10" class="w3-text-light-grey">O Cuidado </h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Entre as muitas pessoas que cruzaram meu caminho, uma enfermeira se destacou. Ela não só cuidou dos detalhes do meu bem-estar, ajudando-me a cortar o cabelo e fazer 
-          a barba após um longo período de hospitalização, mas também me apoiou nos meus primeiros passos na recuperação. Sua dedicação foi um lembrete forte de que existem pessoas que, mesmo por um tempo breve, 
-          deixam uma marca duradoura em nós. </p>
-  </div>
-</div>
-
-<!-- Seção O Quarto -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="primeirospassosrecuperacao">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 15</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap11" class="w3-text-light-grey">O Quarto</h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Após longa jornada na UTI, fui transferido para um quarto — um sinal de que a cura era possível. Ainda dependente de 
-          um acompanhante, contei com a dedicação incansável da minha esposa e o revezamento dos meus irmãos. Os primeiros dias foram desafiadores, com mobilidade limitada.
-          Mas, com fisioterapia e apoio, dei meus primeiros passos rumo à independência e à vida que começava a renascer.  </p>
-  </div>
-</div>
-
-<!-- Seção O Pão que Alimenta -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="paoalimenta">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 16</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap12" class="w3-text-light-grey">O Pão que Alimenta </h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Um dia, a fonoaudióloga apareceu com um desafio: um teste de deglutição. Com uma simples 
-          torrada em mãos, me desafiou a provar que eu podia engolir. Em segundos, devorei tudo, surpreendendo a todos. Com um sorriso, ela anunciou: “Você está liberado 
-          para comer.” Foi o fim das restrições alimentares e o início de uma nova etapa da recuperação, ainda com cuidados, mas cheia de sabor e vitória. </p>
-  </div>
-</div>
-
-
-<!-- Seção A Simplicidade da Vida -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="simplicidadevida">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1 class="w3-text-light-grey">Parte 17</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap13" class ="w3-text-light-grey">A Simplicidade da Vida</h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey">Com a liberação da sonda, uma nova fase começou. Iniciei com alimentos pastosos, mas aos poucos, as restrições foram caindo. 
-          Lembro da emoção ao provar uma simples salada de alface — fresca, crocante, quase divina. Redescobri a alegria de comer. Um dia, até refrigerante, sorvete e 
-          lanche entraram no cardápio. Com a bênção da nutricionista, cada mordida virou uma celebração da vida.  </p>
-  </div>
-<div>
-
-<!-- Seção o Retorno ao Lar -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="finalmenteretornolar">
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h1  class="w3-text-light-grey">Parte 18</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="cap14" class = "w3-text-light-grey"> O Retorno ao Lar </h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey"> Recebi alta com o coração acelerado. Antes de sair, senti tontura e dor, mas minha esposa, com sua sabedoria, me acalmou e 
-          disse: “Está tudo bem, vamos continuar.” Na saída, lá estavam eles: família e amigos, sorrisos e lágrimas me recebendo após 
-          69 dias de luta. Voltei pra casa cercado de amor e fé. Que minha história inspire quem ainda caminha pelo vale, lembrando que Deus sempre tem a última palavra.</p>
-  </div>
-</div>
- <hr class="linha-personalizada" style="width: 100%;" >
-
-<!-- Sessão Sagradas Escrituras -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black"id="sagradasescrituras">
-   <h1 class="w3-text-light-grey">Introdução</h1>
-   <hr class="linha-personalizada" style="width: 100%;" >
-      <div style="margin-right: 20px;">
-        <h2 id="objetivo2"class ="w3-text-light-grey"></h2>
-        <hr class="linha-personalizada" style="width: 100%;" >
-        <p class =" w3-text-light-grey">
-          Para trazer uma compreensão geral e acessível aos ensinamentos bíblicos, isto é, para que possam ler e refletir sobre o assunto, espero que essas reflexões 
-          esclareçam a sua visão sobre o mundo que vivemos, e além disso, que todos conheçam de onde viemos, onde estamos e para onde vamos segundo as sagradas escrituras.</p>
-  </div>
-</div>
-   <hr class="linha-personalizada" style="width: 100%;" >
-  
-<!-- Sessão Eternidade Passada -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="eternidadepassadaparteI">
-  <h1 class="w3-text-light-grey">Parte 1</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h2 class="w3-text-light-grey">A Eternidade Passada</h2>
-  <hr class="linha-personalizada" style="width: 100%;" >
-    <div style="margin-right: 20px;">
-      <h2 id="eternidadepassada"class ="w3-text-light-grey"></h2>
-      <hr class="linha-personalizada" style="width: 100%;" >
-        <p class ="w3-text-light-grey"> Antes de tudo existir — matéria, tempo ou espaço — havia apenas o mundo espiritual, regido pelo Kairós: o tempo eterno de Deus. 
-          Ali, o Pai, o Filho e o Espírito viviam em perfeita unidade, e os anjos de luz foram criados livres e organizados em hierarquia. 
-          Neste cenário invisível, nascem as estruturas eternas que sustentam toda a realidade visível. Um convite a contemplar o que havia antes do “haja luz”.  </p>
-    </div>
-    <hr class="linha-personalizada" style="width: 100%;" >
-          <h5>Sagradas Escrituras:</h5>
-    <hr class="linha-personalizada" style="width: 100%;" >
-          <h6>Salmos: 90 e versículo 2</h6>
-          <h6>João: Capítulo 1 do versículo 1 ao 3</h6>
-    <hr class="linha-personalizada" style="width: 100%;" >
-  </div>
-
-<!-- Sessão Queda dos Anjos -->  
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="quedaanjosparteI">
-  <h1 class="w3-text-light-grey">Parte 2</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h2 class="w3-text-light-grey">A Queda dos Anjos</h2>
-  <hr class="linha-personalizada" style="width: 100%;" >
-    <div style="margin-right: 20px;">
-      <h2 id="anjos"class ="w3-text-light-grey"></h2>
-      <hr class="linha-personalizada" style="width: 100%;" >
-      <p class ="w3-text-light-grey"> Nem tudo que foi criado na luz permaneceu nela. Um anjo, brilhante e exaltado, se corrompeu pelo orgulho e desejou ser como Deus. Sua rebelião rasgou os céus e o lançou às trevas, 
-        arrastando com ele uma legião de anjos. Assim nasceu um império de oposição, erguido sobre a mentira e a vaidade. Essa queda revela uma verdade eterna: até no céu, o livre-arbítrio exigia responsabilidade. </p>
-  </div>
-<!--  <img src="./Imagens/Queda_Anjos.png" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-      <hr class="linha-personalizada" style="width: 100%;" >
-        <h5>Sagradas Escrituras:</h5>
-      <hr class="linha-personalizada" style="width: 100%;" >
-        <h6>Lucas: Capítulo 10 e versículo 18</h6>
-        <h6>João: Capítulo 12 e versículo 31</h6>
-        <h6>II Pedro: Capítulo 2 e versículo 4</h6>
-        <h6>Judas: Capítulo 1 versículo 6</h6>
-        <h6>Apocalipse: Capítulo 12 do versículo 7 ao 9</h6>
-      <hr class="linha-personalizada" style="width: 100%;" >
-  </div>
-  
-<!-- Sessão A Queda da Humanidade  -->  
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="quedahumanidadeparteI">
-  <h1 class="w3-text-light-grey">Parte 3</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h2 class="w3-text-light-grey">A Queda da Humanidade</h2>
-  <hr class="linha-personalizada" style="width: 100%;" >
-    <div style="margin-right: 20px;">
-      <h2 id="humanidade"class ="w3-text-light-grey"></h2>
-      <hr class="linha-personalizada" style="width: 100%;" >
-      <p class ="w3-text-light-grey"> No jardim perfeito criado por Deus, uma escolha mudou tudo. A serpente sussurrou dúvida e orgulho: “Sereis como Deus”. O homem cedeu. Com um único gesto, o pecado entrou, 
-        e com ele, a morte e o distanciamento de Deus. Desde então, herdamos uma natureza ferida, inclinada a buscar o controle e esquecer o Criador. Mas o jardim perdido é também promessa: o que foi quebrado, 
-        um dia será restaurado. </p>
-    </div>
-  <!--  <img src="./Imagens/Queda_Humanidade.png" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-        <hr class="linha-personalizada" style="width: 100%;" >
-          <h5>Sagradas Escrituras:</h5>
-        <hr class="linha-personalizada" style="width: 100%;" >
-          <h6>Gênesis: Capítulo 3 do versículo 1 ao 7</h6>
-          <h6>II Timóteo: Capítulo 4 do versículo 3 ao 4</h6>
-          <h6>Romanos: Capítulo 1 versículo 25</h6>
-        <hr class="linha-personalizada" style="width: 100%;" >
-  </div>
-
-<!-- Sessão Sacrifico de Jesus  -->  
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="redencaojesuscristoparteI">
-  <h1 class="w3-text-light-grey">Parte 4</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h2 class="w3-text-light-grey">Sacrifício de Jesus</h2>
-  <hr class="linha-personalizada" style="width: 100%;" >
-    <div style="margin-right: 20px;">
-      <h2 id="jesus"class ="w3-text-light-grey"></h2>
-      <hr class="linha-personalizada" style="width: 100%;" >
-      <p class ="w3-text-light-grey"> Quando a salvação humana era impossível, Deus entrou no tempo como o Verbo encarnado. 
-        Jesus nasceu de Maria, viveu com graça, venceu a tentação e morreu na cruz, pedindo ao Pai que perdoasse quem o havia crucificado. 
-        Seu sacrifício reabriu o caminho da reconciliação. Essa redenção é oferecida a quem crê em Jesus, se arrepende e entrega a vida a Ele. 
-        O batismo sela essa fé, e o novo nascimento pelo Espírito faz parte da família de Deus — por graça, não por obras.  </p>
-  </div>
-<!--  <img src="./Imagens/Sacrificio_Jesus.png" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-      <hr class="linha-personalizada" style="width: 100%;" >
-        <h5>Sagradas Escrituras:</h5>
-      <hr class="linha-personalizada" style="width: 100%;" >
-        <h6>João: Capítulo 3 versículo 16</h6>
-        <h6>João: Capítulo 10 do versículo 1 ao 18</h6>
-        <h6>Romanos: Capítulo 5 e versículo 8</h6>
-        <h6>I Timóteo: Capítulo 2 e versículo 5</h6>
-      <hr class="linha-personalizada" style="width: 100%;" >
-  </div>
-
-<!-- Sessão O Tribunal de Cristo  --> 
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="tribunalcristoparteI">
-  <h1 class="w3-text-light-grey">Parte 5</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h2 class="w3-text-light-grey">O Tribunal de Cristo</h2>
-  <hr class="linha-personalizada" style="width: 100%;" >
-    <div style="margin-right: 20px;">
-      <h2 id="tribunal"class ="w3-text-light-grey"></h2>
-      <hr class="linha-personalizada" style="width: 100%;" > Haverá um dia reservado para avaliação de todo verdadeiro cristão diante do trono de Deus — não para determinar salvação, que já é dom da graça — mas para provar cada obra pelo fogo divino. 
-      As ações edificadas com fé e amor, como ouro, prata e pedras preciosas, resplandecerão e serão recompensadas. Já as movidas por vaidade ou ego, como palha, madeira e feno, se consumirão. Esse julgamento revelará a fidelidade dos redimidos e ecoará 
-      pela eternidade. <p class ="w3-text-light-grey"> 
-   <!-- <img src="./Imagens/Tribunal_Cristo.png" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-      <hr class="linha-personalizada" style="width: 100%;" >
-          <h5>Sagradas Escrituras:</h5>
-      <hr class="linha-personalizada" style="width: 100%;" >
-          <h6>I Corintios: Capítulo 3 do versículo 1 ao 15</h6>
-          <h6>I Corintios: Capítulo 11 do versículo 31 ao 32</h6>
-          <h6>II Corintios: Capítulo 5 e versículo 10</h6>
-          <h6>I Pedro: Capítulo 4 e versículo 17</h6>
-      <hr class="linha-personalizada" style="width: 100%;" >   
-  </div>
-  
-<!-- Sessão O Juízo Final dos Anjos e da Humanidade  -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="juizofinalparteI">
-  <h1 class="w3-text-light-grey">Parte 6</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h2 class="w3-text-light-grey">O Juízo Final</h2>
-  <hr class="linha-personalizada" style="width: 100%;" >
-    <div style="margin-right: 20px;">
-      <h2 id="juizofinal"class ="w3-text-light-grey"></h2>
-      <hr class="linha-personalizada" style="width: 100%;" >    
-      <p class ="w3-text-light-grey"> Haverá um amanhecer além do tempo: todo véu se rasgará e a verdade oculta virá à luz. No dia do Juízo Final,
-        o Altíssimo erguerá seu trono, e nações se curvarão ao peso da verdade. Anjos rebeldes receberão sentença, assim como cada vida humana será 
-        examinada: ações, palavras e intenções expostas, quem não estiver no Livro da Vida seguirá ao abismo flamejante, demonstrando a seriedade do livre-arbítrio e da justiça divina.</p>
-    </div>
-   <!-- <img src="./Imagens/Juizo_Final.png" class="imagem-hover" style="height: auto; max-height: 200px; margin-top: 10px;" onclick="openModal(this.src)"> -->
-        <hr class="linha-personalizada" style="width: 100%;" >
-            <h5>Sagradas Escrituras:</h5>
-        <hr class="linha-personalizada" style="width: 100%;" >
-            <h6>Apocalipse: Capítulo 20 do versículo 10 ao 15</h6>
-        <hr class="linha-personalizada" style="width: 100%;" >
-  </div>
-
-<!-- Sessão A Eternidade Futura  -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="eternidadefuturaparteI">
-  <h1 class="w3-text-light-grey">Parte 7</h1>
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <h2 class="w3-text-light-grey">A Eternidade Futura</h2>
-  <hr class="linha-personalizada" style="width: 100%;" >
-  <div style="margin-right: 20px;">
-    <h2 id="eternidadefutura"class ="w3-text-light-grey"> </h2>
-    <hr class="linha-personalizada" style="width: 100%;" >
-    <p class ="w3-text-light-grey"> O apóstolo João viu em visão um novo céu e uma terra recriados, enquanto o antigo mundo se dissipava. 
-      Desceu do céu a Nova Jerusalém, como noiva resplandecente, e Deus habitou entre Seu povo, enxugando lágrimas e encerrando morte, luto e dor. 
-      As coisas antigas passaram, inaugurando comunhão e paz eternas—prenúncio do amor que renova tudo. </p>
-    </div>
-    <img src="./Imagens/Nova_Jerusalem_Descendo_Terra.png" class="imagem-hover" style="height: auto; max-height: 250px; margin-top: 10px;" onclick="openModal(this.src)">
-      <hr class="linha-personalizada" style="width: 100%;" >
-          <h5>Sagradas Escrituras:</h5>
-      <hr class="linha-personalizada" style="width: 100%;" >
-          <h6>Apocalipse: Capítulos 21 e 22</h6>
-      <hr class="linha-personalizada" style="width: 100%;" >
-    
-</div>
-
-<!-- Seção Contato -->
-
-<div class="w3-container w3-padding-32 w3-center w3-black" id="contato">
-
-    <h1 class="w3-text-light-grey">Entre em Contato</h1>
-    <hr class="linha-personalizada" style="width: 100%;" >
-    <div style="margin-right: 20px;">
-  <hr class="linha-personalizada" style="width: 100%;" >
-      <h2 id="entrecontato"class ="w3-text-light-grey">Email </h2>
-  <hr class="linha-personalizada" style="width: 100%;" >
-        <div class="w3-section">
-            <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> São Paulo, Brazil</p>
-            <!--<p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +55 </p> -->
-            <!--<p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: rafaelantonio18@hotmail.com</p> -->
-          <p>Em caso de Dúvidas. Envie-me uma mensagem:</p>
-            <div>
-                <button class="w3-button w3-light-grey w3-padding-large" type="button" onclick="AplicativoPadraoEmail()">
-                <i class="fa fa-paper-plane"></i> Clique Aqui</button>  
+      <!-- ÁREA TOTAL: QUEM SOU EU? -->
+      <div class="area-conteudo" id="area-quem-sou-eu">
+        <div class="w3-container w3-padding-32 w3-center w3-black">
+          <h1 class="w3-jumbo">Quem sou eu?</h1>
+          <hr class="linha-personalizada" style="width: 100%;">
+            <video id="meuVideoQuemSouEu" 
+              src="./Videos/Meu-site-Quem-sou-eu-v3_compacto.mp4" 
+              style="max-width: 100%; max-height: 400px; margin-top: 10px;">Seu navegador 
+              não suporta o elemento de vídeo.
+            </video>
+            <div style="margin-top: 5px;">
+              <button onclick="retrocederVideo('meuVideoQuemSouEu')">⏪ Voltar 2x</button>
+              <button onclick="playVideo('meuVideoQuemSouEu')">▶️ Começar </button>
+              <button onclick="pauseVideo('meuVideoQuemSouEu')">⏸️ Pausar</button>
+              <button onclick="fullscreenVideo('meuVideoQuemSouEu')">⛶ Tela Cheia</button>
             </div>
-        <!-- End Contact Section -->
+        </div>
+      </div>
+      
+      <!-- ÁREA TOTAL: TESTEMUNHO -->
+      <div class="area-conteudo" id="area-testemunho">
+        <div class="w3-container w3-padding-32 w3-center w3-black">
+          <h1 class="w3-jumbo">Testemunho</h1>
+          <hr class="linha-personalizada" style="width: 100%;">
+          <button id="btn-acesso-rapido2" class="w3-button w3-white w3-margin-bottom">Clique aqui</button>
+
+        <!-- MENU INTERNO DE NAVEGAÇÃO -->
+          <nav class="w3-center w3-padding-small" id="indice-navegacao2" style="display:none;">
+            <a href="#intro-testemunho" class="w3-bar-item w3-button w3-small">Introdução</a> </br>
+            <a href="#cap1" class="w3-bar-item w3-button w3-small">Parte 1 - A Primeira Notícia</a> </br>
+            <a href="#cap2" class="w3-bar-item w3-button w3-small">Parte 2 - Os Primeiros Cuidados</a> </br>
+            <a href="#cap3" class="w3-bar-item w3-button w3-small">Parte 3 - O Primeiro Desafio</a> </br>
+            <a href="#cap4" class="w3-bar-item w3-button w3-small">Parte 4 - A Rede Social</a> </br>
+            <a href="#cap5" class="w3-bar-item w3-button w3-small">Parte 5 - Momentos antes da Escuridão</a> </br>
+            <a href="#cap6" class="w3-bar-item w3-button w3-small">Parte 6 - Um Sono Profundo</a> </br>
+            <a href="#cap7" class="w3-bar-item w3-button w3-small">Parte 7 - Entre a Vida e a Morte I</a> </br>
+            <a href="#cap8" class="w3-bar-item w3-button w3-small">Parte 8 - O Despertar I</a> </br>
+            <a href="#cap9" class="w3-bar-item w3-button w3-small">Parte 9 - O Encontro</a> </br>
+            <a href="#cap10" class="w3-bar-item w3-button w3-small">Parte 10 - O Despertar II</a> </br>
+            <a href="#cap11" class="w3-bar-item w3-button w3-small">Parte 11 - Entre a Vida e a Morte II</a> </br>
+            <a href="#cap12" class="w3-bar-item w3-button w3-small">Parte 12 - A Comunicação</a> </br>
+            <a href="#cap13" class="w3-bar-item w3-button w3-small">Parte 13 - A Reconstrução da Voz</a> </br>
+            <a href="#cap14" class="w3-bar-item w3-button w3-small">Parte 14 - O Cuidado</a> </br>
+            <a href="#cap15" class="w3-bar-item w3-button w3-small">Parte 15 - O Quarto</a> </br>
+            <a href="#cap16" class="w3-bar-item w3-button w3-small">Parte 16 - O Pão que Alimenta</a> </br>
+            <a href="#cap17" class="w3-bar-item w3-button w3-small">Parte 17 - A Simplicidade da Vida</a> </br>
+            <a href="#cap18" class="w3-bar-item w3-button w3-small">Parte 18 - O Retorno ao Lar</a>
+          </nav>
+
+          <!-- INTRODUÇÃO - TESTEMUNHO -->
+
+          <hr class="linha-personalizada" style="width: 100%;">
+          <div id="intro-testemunho" class="testemunho-section" style="display: none;">
+            <h1>Introdução</h1>
+            <video id="meuVideointroducao" 
+              src="./Videos/Meu-site-Introdução-Testemunho v2_compacto.mp4" 
+              style="max-width: 100%; max-height: 400px; margin-top: 10px;">Seu navegador 
+              não suporta o elemento de vídeo.
+            </video>
+            <div style="margin-top: 5px;">
+              <button onclick="retrocederVideo('meuVideointroducao')">⏪ Voltar 2x</button>
+              <button onclick="playVideo('meuVideointroducao')">▶️ Começar </button>
+              <button onclick="pauseVideo('meuVideointroducao')">⏸️ Pausar</button>
+              <button onclick="fullscreenVideo('meuVideointroducao')">⛶ Tela Cheia</button>
+            </div>
+          </div>
+
+          <!-- PARTE 1 - TESTEMUNHO -->
+
+          <div id="cap1" class="testemunho-section" style="display: none;">
+            <h1>Parte 1 - A Primeira Notícia</h1>
+            <video id="meuVideoPrimeiraNoticia" 
+              src="./Videos/Meu-site-Primeira-noticia-v6_compacto.mp4" 
+              style="max-width: 100%; max-height: 400px; margin-top: 10px;">Seu navegador 
+              não suporta o elemento de vídeo.
+            </video>
+            <div style="margin-top: 5px;">
+              <button onclick="retrocederVideo('meuVideoPrimeiraNoticia')">⏪ Voltar 2x</button>
+              <button onclick="playVideo('meuVideoPrimeiraNoticia')">▶️ Começar </button>
+              <button onclick="pauseVideo('meuVideoPrimeiraNoticia')">⏸️ Pausar</button>
+              <button onclick="fullscreenVideo('meuVideoPrimeiraNoticia')">⛶ Tela Cheia</button>
+            </div>
+          </div>
+
+          <!-- PARTE 2 - TESTEMUNHO -->
+
+          <div id="cap2" class="testemunho-section" style="display: none;">
+            <h1>Parte 2 - Os Primeiros Cuidados</h1>
+            <video id="meuVideoPrimeirosCuidados" 
+              src="./Videos/Meu-site-Primeiros-cuidados-v2_compacto.mp4" 
+              style="max-width: 100%; max-height: 400px; margin-top: 10px;">Seu navegador 
+              não suporta o elemento de vídeo.
+            </video>
+            <div style="margin-top: 5px;">
+              <button onclick="retrocederVideo('meuVideoPrimeirosCuidados')">⏪ Voltar 2x</button>
+              <button onclick="playVideo('meuVideoPrimeirosCuidados')">▶️ Começar </button>
+              <button onclick="pauseVideo('meuVideoPrimeirosCuidados')">⏸️ Pausar</button>
+              <button onclick="fullscreenVideo('meuVideoPrimeirosCuidados')">⛶ Tela Cheia</button>
+            </div>
+          </div>
+
+          <!-- PARTE 3 - TESTEMUNHO -->
+
+          <div id="cap3" class="testemunho-section" style="display: none;">
+            <h1>Parte 3 - O Primeiro Desafio</h1>
+            <video id="meuVideoPrimeiroDesafio" 
+              src="./Videos/Meu-Site-Primeiro-desafio-v1_compacto.mp4" 
+              style="max-width: 100%; max-height: 400px; margin-top: 10px;">Seu navegador 
+              não suporta o elemento de vídeo.
+            </video>
+            <div style="margin-top: 5px;">
+              <button onclick="retrocederVideo('meuVideoPrimeiroDesafio')">⏪ Voltar 2x</button>
+              <button onclick="playVideo('meuVideoPrimeiroDesafio')">▶️ Começar </button>
+              <button onclick="pauseVideo('meuVideoPrimeiroDesafio')">⏸️ Pausar</button>
+              <button onclick="fullscreenVideo('meuVideoPrimeiroDesafio')">⛶ Tela Cheia</button>
+            </div>
+          </div>
+
+          <!-- PARTE 4 - TESTEMUNHO -->
+
+          <div id="cap4" class="testemunho-section" style="display: none;">
+            <h1>Parte 4 - A Rede Social </h1>
+            <p>Os dias se arrastavam e eu ainda estava internado, quando decidi compartilhar minha jornada nas redes sociais. 
+              Em um post no Facebook, alertei amigos sobre os perigos dessa doença que havia me colocado nessa situação tão desafiadora. 
+              Foi um ato de urgência e compaixão, mesmo em meio à minha própria luta, senti que precisava informar, conscientizar e,
+              de alguma forma, transformar dor em alerta.
+            </p>
+          </div>
+
+          <!-- PARTE 5 - TESTEMUNHO -->
+
+          <div id="cap5" class="testemunho-section" style="display: none;">
+            <h1>Parte 5 - Momentos antes da Escuridão </h1>
+            <p>Recebi mensagens e áudios de amigos e familiares, com orações e palavras, que me incentivavam a continuar
+              firme. Lembro com clareza do vídeo que enviei à minha esposa, carregado de esperança, fé e amor, logo depois, 
+              mergulhei em um sono profundo, onde os limites entre sonho e realidade se apagaram. Tudo parecia distante, 
+              irreal, mas, mesmo ali, na escuridão da inconsciência, a luz da esperança seguia brilhando.
+            </p>
+          </div>
+
+          <!-- PARTE 6 - TESTEMUNHO -->
+
+          <div id="cap6" class="testemunho-section" style="display: none;">
+            <h1>Parte 6 - Um Sono Profundo</h1>
+            <p>Tudo parecia apenas um sono, mas o que me contaram depois mudou tudo. Meu estado era tão grave 
+              que precisaram me entubar, no dia 28 de maio de 2021, eu completaria 34 anos, mas esse dia passou em 
+              branco, enquanto eu flutuava entre a vida e a morte. Imagino o terror vivido por meus familiares do lado
+              de fora, recebendo notícias que oscilavam entre esperança e medo. Então, em um dia comum, tudo mudou.
+            </p>
+          </div>
+
+          <!-- PARTE 7 - TESTEMUNHO -->
+
+          <div id="cap7" class="testemunho-section" style="display: none;">
+            <h1>Parte 7 - Entre a Vida e a Morte I</h1>
+            <p>TNo dia 08 de junho de 2021, por volta das 8h da manhã, meu coração parou. Uma trombose causou uma parada 
+              cardio respiratória, que me levou à beira da morte, foram seis minutos entre a vida e o além, em um limbo
+              de dor e escuridão. Senti algo como um tiro no coração, por um instante, acreditei que era o fim, mas no
+              terceiro ciclo de reanimação, meus sinais vitais milagrosamente retornaram, a luz da vida ainda brilhava. 
+            </p>
+          </div>
+
+          <!-- PARTE 8 - TESTEMUNHO -->
+          
+          <div id="cap8" class="testemunho-section" style="display: none;">
+            <h1>Parte 8 - O Despertar I</h1>
+            <p>Despertei envolto por sensações confusas e sonolentas, sem entender ao certo o que se passava ao meu redor.
+              Aos poucos, a névoa da inconsciência começou a se dissipar, revelando a presença tranquila de um psicólogo 
+              ao meu lado. Aquele momento, ainda turvo, foi o primeiro passo rumo à minha recuperação,a primeira faísca da 
+              consciência reacendendo dentro de mim.
+            </p>
+          </div>
+
+          <!-- PARTE 9 - TESTEMUNHO -->
+
+          <div id="cap9" class="testemunho-section" style="display: none;">
+            <h1>Parte 9 - O Encontro</h1>
+            <p>Minha esposa entrou na sala, meus olhos se encheram de lágrimas ao vê-la tão forte diante da minha fragilidade. 
+              Perguntei por que ela não chorava, e sua resposta foi um pedido para que eu fosse forte também. Só depois 
+              entendi: ela havia sido orientada a manter-se firme, pois qualquer estabilidade emocional seria vital. Aquele 
+              reencontro foi puro alívio, amor e gratidão.
+            </p>
+          </div>
+
+          <!-- PARTE 10 - TESTEMUNHO -->
+
+          <div id="cap10" class="testemunho-section" style="display: none;">
+            <h1>Parte 10 - Entre a Vida e a Morte II</h1>
+            <p>Uma bactéria hospitalar invadiu meu corpo, gerando um choque séptico que alterou drasticamente meus sinais 
+              vitais. A equipe de enfermagem lutava para me manter estável. Lembro das bolsas de gelo nos punhos e pernas para
+              conter a febre. Foram três dias de incerteza, até que minha esposa ouviu da médica: “Se ele aguentar mais dois dias, ficará bem.” Essas palavras
+              reacenderam sua fé e mantiveram viva a esperança, tanto minha esposa quanto minha sogra foram liberadas para me ver neste dia. 
+            </p>
+          </div>
+
+          <!-- PARTE 11 - TESTEMUNHO -->
+
+          <div id="cap11" class="testemunho-section" style="display: none;">
+            <h1>Parte 11 - O Despertar II</h1>
+            <p>Comecei a recobrar a consciência como quem emerge de um sono profundo, retornei às sessões de
+              psicologia, cada uma sendo um passo rumo à reconexão com a realidade. Enquanto me esforçava para me
+              reencontrar, recebi áudios de familiares e amigos. Cada mensagem era um raio de luz em meio à escuridão, lembrando-me de que não estava sozinho. As
+              vozes e memórias ajudaram a reconstruir quem eu era.
+            </p>
+          </div>
+
+          <!-- PARTE 12 - TESTEMUNHO -->
+
+          <div id="cap12" class="testemunho-section" style="display: none;">
+            <h1>Parte 12 - A Comunicação</h1>
+            <p>Após a traqueostomia, percebi que não podia mais falar. A simples ação de me comunicar, tão natural antes,
+              havia se tornado impossível. Passei a usar gestos e leitura labial para expressar o que sentia. Foi um
+              choque ver minha voz silenciada, mas mesmo sem palavras, encontrei novas formas de me fazer entender. Cada 
+              olhar, cada movimento, tornou-se uma declaração silenciosa da minha vontade de vencer.
+            </p>
+          </div>
+
+          <!-- PARTE 13 - TESTEMUNHO -->
+
+          <div id="cap13" class="testemunho-section" style="display: none;">
+            <h1>Parte 13 - A Reconstrução da Voz</h1>
+            <p>Encontrei na fonoaudióloga uma aliada na missão de recuperar minha voz. No começo, soava rouca e metálica,
+              e até brinquei com o psicólogo imitando um robô. Aos poucos, fui reencontrando meu som. Reuni a equipe de
+              enfermagem e foi um momento de alegria e gratidão por poder falar novamente, compartilhando minha vitória
+              com todos ao meu redor.
+            </p>
+          </div>
+
+          <!-- PARTE 14 - TESTEMUNHO -->
+
+          <div id="cap14" class="testemunho-section" style="display: none;">
+            <h1>Parte 14 - O Cuidado</h1>
+            <p>Entre as muitas pessoas que cruzaram meu caminho, uma enfermeira se destacou, ela não só cuidou dos detalhes do meu bem-estar, ajudando-me a cortar o cabelo e fazer
+              a barba após um longo período de hospitalização, mas também me apoiou nos meus primeiros passos na
+              recuperação. Sua dedicação foi um lembrete forte de que existem pessoas que, mesmo por um tempo breve,
+              deixam uma marca duradoura em nós.
+            </p>
+          </div>
+
+          <!-- PARTE 15 - TESTEMUNHO -->
+
+          <div id="cap15" class="testemunho-section" style="display: none;">
+            <h1>Parte 15 - O Quarto</h1>
+            <p>Fui transferido para um quarto após longa jornada na UTI, eu ainda precisava de um acompanhante, 
+              contei com a dedicação incansável da minha esposa e o revezamento dos meus irmãos. Os primeiros dias foram 
+              desafiadores devido a mobilidade limitada, mas com fisioterapia e apoio, dei meus primeiros passos rumo à 
+              independência e à vida que começava a renascer.
+            </p>
+          </div>
+
+          <!-- PARTE 16 - TESTEMUNHO -->
+          
+          <div id="cap16" class="testemunho-section" style="display: none;">
+            <h1>Parte 16 - O Pão que Alimenta</h1>
+            <p>A fonoaudióloga apareceu com um desafio: um teste de deglutição. Com
+              uma simples torrada em mãos, me desafiou a provar que eu podia engolir. Em segundos, devorei tudo, surpreendendo a
+              todos. Com um sorriso, ela anunciou: “Você está liberado
+              para comer.” Foi o fim das restrições alimentares e o início de uma nova etapa da recuperação, ainda com
+              cuidados, mas cheia de sabor e vitória.
+            </p>
+          </div>
+
+          <!-- PARTE 17 - TESTEMUNHO -->
+          
+          <div id="cap17" class="testemunho-section" style="display: none;">
+            <h1>Parte 17 - A Simplicidade da Vida</h1>
+            <p>Com a liberação da sonda, uma nova fase começou. Iniciei com alimentos
+              pastosos, mas aos poucos, as restrições foram caindo.
+              Lembro da emoção ao provar uma simples salada de alface — fresca, crocante, quase divina. Redescobri a
+              alegria de comer. Um dia, até refrigerante, sorvete e
+              lanche entraram no cardápio. Com a bênção da nutricionista, cada mordida virou uma celebração da vida.
+            </p>
+          </div>
+
+          <!-- PARTE 18 - TESTEMUNHO -->
+
+          <div id="cap18" class="testemunho-section" style="display: none;">
+            <h1>Parte 18 - O Retorno ao Lar</h1>
+            <p>Recebi alta com o coração acelerado. Antes de sair, senti tontura e dor, mas
+              minha esposa, com sua sabedoria, me acalmou e disse: “Está tudo bem, vamos continuar.” Na saída, lá estavam eles: família e amigos, sorrisos e lágrimas
+              me recebendo após 69 dias de luta. Voltei pra casa cercado de amor e fé. Que minha história inspire quem ainda caminha pelo
+              vale, lembrando que Deus sempre tem a última palavra.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ÁREA TOTAL: RESUMO DA BÍBLIA -->
+      <div class="area-conteudo" id="area-escrituras">
+        <div class="w3-container w3-padding-32 w3-center w3-black">
+          <h1 class="w3-jumbo">Resumo da Bíblia</h1>
+          <p> Neste espaço quero compartilhar uma visão geral dos principais pontos das escrituras sagradas.</p>
+          <hr class="linha-personalizada">
+          <button id="btn-acesso-rapido3" class="w3-button w3-white w3-margin-bottom">Clique aqui</button>
+
+          <!-- MENU INTERNO DE NAVEGAÇÃO -->
+          <nav class="w3-center w3-padding-small" id="indice-navegacao3" style="display:none;">
+            <a href="#intro-sagradas-escrituras" class="w3-bar-item w3-button w3-small">Introdução</a> </br>
+            <a href="#se-cap1" class="w3-bar-item w3-button w3-small">Parte 1 - A Eternidade Passada</a> </br>
+            <a href="#se-cap2" class="w3-bar-item w3-button w3-small">Parte 2 - A Queda dos Anjos</a> </br>
+            <a href="#se-cap3" class="w3-bar-item w3-button w3-small">Parte 3 - A Queda da Humanidade</a> </br>
+            <a href="#se-cap4" class="w3-bar-item w3-button w3-small">Parte 4 - Sacrifício de Jesus </a> </br>
+            <a href="#se-cap5" class="w3-bar-item w3-button w3-small">Parte 5 - O Tribunal de Cristo </a> </br>
+            <a href="#se-cap6" class="w3-bar-item w3-button w3-small">Parte 6 - O Juízo Final</a> </br>
+            <a href="#se-cap7" class="w3-bar-item w3-button w3-small">Parte 7 - A Eternidade Futura </a>
+          </nav>
+          <hr class="linha-personalizada">
+
+          <!-- INTRODUÇÃO - RESUMO DA BÍBLIA -->
+
+          <div id="intro-sagradas-escrituras" class="sagradas-escrituras-section" style="display: none;">
+            <h1>Introdução</h1>
+            <p>Para trazer uma compreensão geral e acessível dos principais pontos dos ensinamentos bíblicos presentes 
+              nesses escritos milenares, espero que estas reflexões te incentivem a leitura e a 
+              reflexões sobre o tema.</p>
+          </div>
+
+          <!-- PARTE 1 - RESUMO DA BÍBLIA -->
+
+          <div id="se-cap1" class="sagradas-escrituras-section" style="display: none;">
+            <h1>Parte 1 - A Eternidade Passada</h1>
+            <p>Antes da existência da matéria, tempo ou espaço, havia apenas o mundo espiritual, a palavra grega conhecida como Kairós: O tempo eterno de Deus. 
+              ali, o Pai, o Filho e o Espírito Santo viviam em perfeita unidade, posteriormente os anjos de luz foram criados e organizados em hierarquia e adoravam a Deus na eternidade. 
+            </p>
+            <!--<img src="./Imagens/Eternidade_Passada.jpeg" class="img-pequena" style="height: auto; max-height: 250px; margin-top: 10px;" onclick="openModal(this.src)"> -->
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h5>Sagradas Escrituras:</h5>
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h6>Salmos: 90 e versículo 2</h6>
+            <h6>João: Capítulo 1 do versículo 1 ao 3</h6>
+            <hr class="linha-personalizada" style="width: 100%;" >
+          </div>
+
+          <!-- PARTE 2 - RESUMO DA BÍBLIA -->
+
+          <div id="se-cap2" class="sagradas-escrituras-section" style="display: none;">
+            <h1>Parte 2 - A Queda dos Anjos</h1>
+            <p>Antes de tudo existir, matéria, tempo ou espaço, havia apenas o mundo espiritual, palavra grega conhecida como Kairós: o tempo eterno de Deus. 
+              ali, o Pai, o Filho e o Espírito Santo viviam em perfeita unidade, e os anjos de luz foram criados livres e organizados em hierarquia. 
+              Neste cenário invisível, nascem as estruturas eternas que sustentam toda a realidade visível, um convite a contemplar o que havia antes do “haja luz”.
+            </p>
+            <!--<img src="./Imagens/Queda_Anjos.png" class="img-pequena" style="height: auto; max-height: 250px; margin-top: 10px;" onclick="openModal(this.src)"> -->
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h6>Lucas: Capítulo 10 e versículo 18</h6>
+            <h6>João: Capítulo 12 e versículo 31</h6>
+            <h6>II Pedro: Capítulo 2 e versículo 4</h6>
+            <h6>Judas: Capítulo 1 versículo 6</h6>
+            <h6>Apocalipse: Capítulo 12 do versículo 7 ao 9</h6>
+          <hr class="linha-personalizada" style="width: 100%;" >
+          </div>
+
+
+          <!-- PARTE 3 - RESUMO DA BÍBLIA -->
+
+          <div id="se-cap3" class="sagradas-escrituras-section" style="display: none;">
+            <h1>Parte 3 - A Queda da Humanidade</h1>
+            <p> No jardim perfeito criado por Deus, uma escolha mudou tudo. A serpente sussurrou dúvida e orgulho: “Sereis como Deus”. O homem cedeu. Com um único gesto, o pecado entrou, 
+              e com ele, a morte e o distanciamento de Deus. Desde então, herdamos uma natureza ferida, inclinada a buscar o controle e esquecer o Criador. Mas o jardim perdido é também promessa: o que foi quebrado, 
+              um dia será restaurado.
+            </p>
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h5>Sagradas Escrituras:</h5>
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h6>Gênesis: Capítulo 3 do versículo 1 ao 7</h6>
+            <h6>II Timóteo: Capítulo 4 do versículo 3 ao 4</h6>
+            <h6>Romanos: Capítulo 1 versículo 25</h6>
+          <hr class="linha-personalizada" style="width: 100%;" >
+          </div>
+
+          <!-- PARTE 4 - RESUMO DA BÍBLIA -->
+
+          <div id="se-cap4" class="sagradas-escrituras-section" style="display: none;">
+            <h1>Parte 4 - O Sacrifício de Jesus</h1>
+            <p> Quando a salvação humana era impossível, Deus entrou no tempo como o Verbo encarnado. 
+              Jesus nasceu de Maria, viveu com graça, venceu a tentação e morreu na cruz, pedindo ao Pai que perdoasse quem o havia crucificado. 
+              Seu sacrifício reabriu o caminho da reconciliação. Essa redenção é oferecida a quem crê em Jesus, se arrepende e entrega a vida a Ele. 
+              O batismo sela essa fé, e o novo nascimento pelo Espírito faz parte da família de Deus — por graça, não por obras.
+            </p>
+            <!--<img src="./Imagens/Sacrificio_Jesus.png" class="img-pequena" style="height: auto; max-height: 250px; margin-top: 10px;" onclick="openModal(this.src)"> -->
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h5>Sagradas Escrituras:</h5>
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h6>João: Capítulo 3 versículo 16</h6>
+            <h6>João: Capítulo 10 do versículo 1 ao 18</h6>
+            <h6>Romanos: Capítulo 5 e versículo 8</h6>
+            <h6>I Timóteo: Capítulo 2 e versículo 5</h6>
+          <hr class="linha-personalizada" style="width: 100%;" >
+          </div>
+
+          <!-- PARTE 5 - RESUMO DA BÍBLIA -->
+
+          <div id="se-cap5" class="sagradas-escrituras-section" style="display: none;">
+            <h1>Parte 5 - O Tribunal de Cristo</h1>
+            <p> QHaverá um dia reservado para avaliação de todo verdadeiro cristão diante do trono de Deus — não para determinar salvação, que já é dom da graça — mas para provar cada obra pelo fogo divino. 
+              As ações edificadas com fé e amor, como ouro, prata e pedras preciosas, resplandecerão e serão recompensadas. Já as movidas por vaidade ou ego, como palha, madeira e feno, se consumirão. Esse julgamento revelará a fidelidade dos redimidos e ecoará 
+              pela eternidade.
+            </p>
+            <!-- <img src="./Imagens/Tribunal_Cristo.png" class="img-pequena" style="height: auto; max-height: 250px; margin-top: 10px;" onclick="openModal(this.src)"> -->
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h5>Sagradas Escrituras:</h5>
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h6>I Corintios: Capítulo 3 do versículo 1 ao 15</h6>
+            <h6>I Corintios: Capítulo 11 do versículo 31 ao 32</h6>
+            <h6>II Corintios: Capítulo 5 e versículo 10</h6>
+            <h6>I Pedro: Capítulo 4 e versículo 17</h6>
+            <hr class="linha-personalizada" style="width: 100%;" >
+          </div>
+
+
+          <!-- PARTE 6 - RESUMO DA BÍBLIA -->
+
+          <div id="se-cap6" class="sagradas-escrituras-section" style="display: none;">
+            <h1>Parte 6 - O Juízo Final</h1>
+            <p> Haverá um amanhecer além do tempo: todo véu se rasgará e a verdade oculta virá à luz. No dia do Juízo Final,
+              o Altíssimo erguerá seu trono, e nações se curvarão ao peso da verdade. Anjos rebeldes receberão sentença, assim como cada vida humana será 
+              examinada: ações, palavras e intenções expostas, quem não estiver no Livro da Vida seguirá ao abismo flamejante, demonstrando a seriedade do livre-arbítrio e da justiça divina.
+            </p>
+            <!--<img src="./Imagens/Juizo_Final.png" class="img-pequena" style="height: auto; max-height: 250px; margin-top: 10px;" onclick="openModal(this.src)"> -->
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h5>Sagradas Escrituras:</h5>
+            <hr class="linha-personalizada" style="width: 100%;" >
+            <h6>Apocalipse: Capítulo 20 do versículo 10 ao 15</h6>
+            <hr class="linha-personalizada" style="width: 100%;" >
+          </div>
+
+          <!-- PARTE 7 - RESUMO DA BÍBLIA -->
+
+          <div id="se-cap7" class="sagradas-escrituras-section" style="display: none;">
+            <h1>Parte 7 - A Eternidade Futura</h1>
+            <p> O apóstolo João viu em visão um novo céu e uma terra recriados, enquanto o antigo mundo se dissipava. 
+              Desceu do céu a Nova Jerusalém, como noiva resplandecente, e Deus habitou entre Seu povo, enxugando lágrimas e encerrando morte, luto e dor. 
+              As coisas antigas passaram, inaugurando comunhão e paz eternas—prenúncio do amor que renova tudo.
+            </p>
+            <!--<img src="./Imagens/Nova_Jerusalem_Descendo_Terra.png" class="img-pequena" style="height: auto; max-height: 250px; margin-top: 10px;" onclick="openModal(this.src)"> -->
+            <hr class="linha-personalizada" style="width: 100%;" >
+                <h5>Sagradas Escrituras:</h5>
+            <hr class="linha-personalizada" style="width: 100%;" >
+                <h6>Apocalipse: Capítulos 21 e 22</h6>
+            <hr class="linha-personalizada" style="width: 100%;" >
+          </div>
+        </div>
+      </div>
+
+
+    <!-- ÁREA TOTAL: LIVROS DA BÍBLIA -->
+    <div class="area-conteudo" id="area-livros">
+      <div class="w3-container w3-padding-32 w3-center w3-black">
+        <h1 class="w3-jumbo">Livros da Bíblia</h1>
+        <p> Em constução....
+            </p>
+        <hr class="linha-personalizada">
+        <button id="btn-acesso-rapido4" class="w3-button w3-white w3-margin-bottom">Clique aqui</button>
+
+        <!-- MENU INTERNO DE NAVEGAÇÃO -->
+        <nav class="w3-center w3-padding-small" id="indice-navegacao4" style="display:none;">
+          <a href="#lb-intro" class="w3-bar-item w3-button w3-small">Teste 1</a> </br>
+        </nav>
+        <hr class="linha-personalizada">
+
+        <!-- INTRODUÇÃO - LIVROS DA BÍBLIA -->
+
+        <div id="intro-livros" class="livros-section" style="display: none;">
+          <h1>Introdução</h1>
+          <p>.....</p>
+        </div>
+
+        <!-- PARTE 1 - LIVROS DA BÍBLIA  -->
+
+        <div id="lib-cap1" class="livros-section" style="display: none;">
+          <h1>..........</h1>
+          <p>.....................................
+          </p>
+          <hr class="linha-personalizada" style="width: 100%;" >
+          <h5>Sagradas Escrituras:</h5>
+          <hr class="linha-personalizada" style="width: 100%;" >
+          <h6>........</h6>
+          <h6>..........</h6>
+          <hr class="linha-personalizada" style="width: 100%;" >
+        </div>
+      </div>
+    </div>
+        
+      <!-- ÁREA TOTAL: CONTATO -->
+      <div class="area-conteudo" id="area-contato">
+        <div class="w3-container w3-padding-32 w3-center w3-black">
+          <h1 class="w3-jumbo">Contato</h1>
+          <h5 >Envie-me uma mensagem por email.</h5>
+          <hr class="linha-personalizada">
+          <button onclick="AplicativoPadraoEmail()" class="w3-button w3-white w3-margin-bottom">Clique aqui</button>
+
+        <hr class="linha-personalizada">
+        <h5>Ou, entre no grupo de WhatsApp para receber novidades.</h5>
+        <button onclick="AplicativoPadraoWhatsAppGrupo()" class="w3-button w3-white w3-margin-bottom">Clique aqui</button>
+        <hr class="linha-personalizada">
         </div>
     </div>
-</div>
-  
-<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
-<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-  <a href="https://www.facebook.com/profile.php?id=1386773148" target="_blank">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  </a>
-  <a href="https://www.instagram.com/_rafael_sants/" target="_blank">
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  </a>
-  <!--<i class="fa fa-snapchat w3-hover-opacity"></i> -->
-  <!--<i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
-  <!--<i class="fa fa-twitter w3-hover-opacity"></i> -->
-  <!--<i class="fa fa-linkedin w3-hover-opacity"></i> -->
-  
- <p class="w3-small">©Desenvolvido por Rafael Santos</p>
-<!--<a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Comece agora</a> -->
- <!-- End footer -->
-</footer>
+</div>  
+    <!-- Fim do Conteúdo Principal -->
 
-<!-- END PAGE CONTENT -->
-</div>
-</div>
+    <!-- Barra Lateral Direita -->
+    <div class="w3-col l2 m3 w3-black sidebar-right"> <!-- Conteúdo da barra lateral direita --> </div>
 
+    <!-- Modal -->
+    <div id="modal"
+      style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7); align-items:center; justify-content:center; z-index:1000;"
+      onclick="closeModal()">
+      <img id="modalImg" src="" alt="Imagem ampliada" style="max-width:90vw; max-height:90vh; box-shadow:0 0 10px #000;">
+    </div>
+
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.facebook.com/profile.php?id=1386773148" target="_blank">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.instagram.com/_rafael_sants/" target="_blank">
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+    </a>
+    <p class="w3-small">©Desenvolvido por Rafael Santos</p>
+
+  </footer>
+</div>
 </body>
+
 </html>
