@@ -85,14 +85,14 @@ document.addEventListener('DOMContentLoaded', function() {
     setupSectionMenu('btn-acesso-rapido4', 'indice-navegacao4', 'area-livros', '.livros-section');
 
     // Exibe Testemunho por padrão
-    mostrarArea('area-quem-sou-eu');
+    mostrarArea('area-testemunho');
 
     // Menu do topo
-    document.getElementById('btn-inicio').addEventListener('click', function(e){
-        e.preventDefault();
-        mostrarArea('area-quem-sou-eu');
-        window.scrollTo(0,0);
-    });
+    // document.getElementById('btn-inicio').addEventListener('click', function(e){
+    //     e.preventDefault();
+    //     mostrarArea('area-quem-sou-eu');
+    //     window.scrollTo(0,0);
+    // });
     document.getElementById('btn-testemunho').addEventListener('click', function(e){
         e.preventDefault();
         mostrarArea('area-testemunho');
