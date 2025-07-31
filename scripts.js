@@ -79,10 +79,10 @@ function mostrarArea(areaId) {
 
 // INICIALIZAÇÃO
 document.addEventListener('DOMContentLoaded', function() {
-    setupSectionMenu('btn-acesso-rapido', 'indice-navegacao', 'area-quem-sou-eu', '.quem-sou-eu-section');
+    // setupSectionMenu('btn-acesso-rapido', 'indice-navegacao', 'area-quem-sou-eu', '.quem-sou-eu-section');
     setupSectionMenu('btn-acesso-rapido2', 'indice-navegacao2', 'area-testemunho', '.testemunho-section');
     setupSectionMenu('btn-acesso-rapido3', 'indice-navegacao3', 'area-escrituras', '.sagradas-escrituras-section');
-    setupSectionMenu('btn-acesso-rapido4', 'indice-navegacao4', 'area-livros', '.livros-section');
+    // setupSectionMenu('btn-acesso-rapido4', 'indice-navegacao4', 'area-livros', '.livros-section');
 
     // Exibe Testemunho por padrão
     mostrarArea('area-testemunho');
@@ -104,11 +104,11 @@ document.addEventListener('DOMContentLoaded', function() {
         window.scrollTo(0,0);
     });
 
-    document.getElementById('btn-livros').addEventListener('click', function(e){
-        e.preventDefault();
-        mostrarArea('area-livros');
-        window.scrollTo(0,0);
-    });
+    // document.getElementById('btn-livros').addEventListener('click', function(e){
+    //     e.preventDefault();
+    //     mostrarArea('area-livros');
+    //     window.scrollTo(0,0);
+    // });
 
     document.getElementById('btn-contato').addEventListener('click', function(e){
         e.preventDefault();
